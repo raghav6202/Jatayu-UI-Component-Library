@@ -1,0 +1,58 @@
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+
+
+body
+{
+margin: 0;
+padding: 0;
+    
+
+}
+
+:root
+{
+    --primary-color: #63DCCD;
+    --secondary-color: #266350;
+}
+
+.logo-component
+{
+
+    height: 50px;
+    width: 60px;
+}
+
+.navigation-menu
+{
+    padding: 1.5rem 1rem;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.left-side-nav
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side-nav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links
+{
+    margin: 0.2rem;
+}
