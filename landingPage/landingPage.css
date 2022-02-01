@@ -32,9 +32,9 @@ padding: 0;
     /* width: 100%; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    border-bottom: 2px solid var(--primary-color);
+    /* border-bottom: 2px solid var(--primary-color); */
 }
 
 .left-side-nav
@@ -85,7 +85,8 @@ padding: 0;
     justify-content: center;
     align-items: center;
    text-align: center;
-    padding-top: 5rem;
+    padding-top: 7rem;
+   
 }
 
 .main-caption
@@ -93,7 +94,7 @@ padding: 0;
     font-size: 3.5rem;
     font-style: italic;
     font-weight: 400;
-    line-height: 3.5rem;
+    /* line-height: 3.5rem; */
     align-self: center;
      width: 70%;
 color: var(--primary-color);
@@ -123,4 +124,37 @@ color: var(--primary-color);
 {
     background-color: white;
     border: 3px solid var(--primary-color);
+}
+
+.installation-container
+{
+    margin-top: 1rem;
+}
+
+
+
+
+.footer-container
+{
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color:var(--primary-color);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-icons
+{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+.small-icons
+{
+    font-size: 1.5rem;
+    color: black;
+
 }
