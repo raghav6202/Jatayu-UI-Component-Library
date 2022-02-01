@@ -152,9 +152,66 @@ color: var(--primary-color);
     flex-flow: row;
     gap: 10px;
 }
+
 .small-icons
 {
     font-size: 1.5rem;
     color: black;
 
+}
+
+@media screen and (max-width : 800px){
+
+    .navigation-menu{
+        justify-content: flex-start;
+        gap: 10px;
+        padding: auto;
+    }
+
+    .left-side-nav .heading{
+        font-size: 1rem;
+    }
+
+ 
+
+    .right-side-nav a{
+        font-size: 0.8rem;
+        margin: 0.4rem;
+    }
+
+    .info-container
+    {
+        width: auto;
+    }
+
+    .info-container .main-caption{
+        font-size: 2rem;
+    
+    }
+
+    .info-container .sub-caption{
+
+        font-size: 1rem;
+        
+    }
+.footer-icons a
+{
+font-size: 1rem;
+}
+
+.installation-container iframe
+{
+    width:50%;
+}
+
+}
+
+  
+
+@media screen and (max-width : 600px){
+ 
+
+    .navigation-menu{
+        padding: 1rem;
+    }
 }
