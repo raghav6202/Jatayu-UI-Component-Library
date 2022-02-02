@@ -47,6 +47,24 @@ align-items: center;
 
 }
 
+.code-snippet
+{
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+
+.code-frame
+{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    padding: 1rem;
+}
+
 .img-avatar 
 {
 height: 12rem;
