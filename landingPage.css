@@ -160,7 +160,16 @@ color: var(--primary-color);
 
 }
 
-/* --------------------------------------- */
+/* ---------------------------------------------------------------- */
+
+.component
+{
+    display: flex;
+    flex-flow: column;
+    padding: 0 1rem;
+
+}
+
 .component-info
 {
     padding-top: 1rem;
@@ -228,7 +237,8 @@ border-radius: 50%;
 
 }
 
-/* --------------------------------------- */
+/* ---------------------------------------------------------------- */
+
 @media screen and (max-width : 800px){
 
     .navigation-menu{
