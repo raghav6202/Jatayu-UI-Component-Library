@@ -132,8 +132,6 @@ color: var(--primary-color);
 }
 
 
-
-
 .footer-container
 {
     margin-top: 1rem;
@@ -160,7 +158,7 @@ color: var(--primary-color);
 
 }
 
-
+/* ----------------------------------------------------------------------- */
 
 .component-info
 {
@@ -221,6 +219,7 @@ align-items: center;
     text-align: center;
 }
   
+/* ----------------------------------------------------------------------- */
 
 @media screen and (max-width : 600px)
 {
