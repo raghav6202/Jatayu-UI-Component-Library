@@ -49,13 +49,14 @@ align-items: center;
 
 .code-snippet
 {
-  
-    text-align: center;
-  
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-
-iframe
+.code-snippet iframe
 {
     box-sizing: border-box;
     width: 100%;
@@ -63,7 +64,7 @@ iframe
     padding: 1rem 0;
     background-color: #FAFAFA;
     margin: 2rem 0;
-    overflow: auto;
+    overflow: scroll;
     border: white;
     text-align: center;
 }
@@ -112,4 +113,24 @@ border-radius: 50%;
     align-items: center;
  
    
+}
+
+@media screen and (max-width: 768px)
+{
+    .info-text
+    {
+        font-size: 1rem;
+    }
+
+    .component-heading
+    {
+        font-size: 2rem;
+    }
+
+    .code-snippet iframe
+    {
+width: 50%;
+overflow-y: scroll;
+    }
+
 }
