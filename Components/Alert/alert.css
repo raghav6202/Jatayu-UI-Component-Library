@@ -1,0 +1,80 @@
+
+@import url("styles.css");
+
+:root
+{
+    --primary-alert-color: #75cbe6;
+    --secondary-alert-color: #b3afaf;
+    --success-alert-color: #75e6af;
+    --fail-alert-color: #fa4343;
+    --warning-alert-color: #f2f21f;
+   
+}
+
+
+.alert-component
+{
+    display: flex;
+    flex-flow: column;
+    padding: 0 1rem;
+
+}
+
+
+.alert-container
+{
+display: flex;
+flex-flow: column wrap;
+gap: 10px;
+
+}
+
+.alert{
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 70%;
+    height: 2rem;
+    display: flex;
+   gap: 15px ;
+   align-items: center;
+}
+
+.primary
+{
+background-color: var(--primary-alert-color);
+}
+
+.secondary
+{
+    background-color: var(--secondary-alert-color);
+}
+
+.success
+{
+   background-color: var(--success-alert-color); 
+}
+
+.fail{
+    background-color: var(--fail-alert-color);
+}
+
+.warning
+{
+    background-color: var(--warning-alert-color);
+}
+
+.close
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-icon
+{
+    font-size: 1.25rem;
+}
+
+.fi-xwluxl-times-wide:hover
+{
+color: white;
+}
