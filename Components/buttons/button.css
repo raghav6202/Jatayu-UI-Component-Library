@@ -70,6 +70,7 @@
 {
     color: var(--default-btn-color);
     font-size: 1.25rem; 
+    margin: 0.5rem;
 }
 .btn-link-secondary:hover
 {
@@ -78,7 +79,7 @@
 
 .btn-icon-secondary
 {
-    
+    margin: 0.5rem;
         font-size: 1.5rem;
    
 }
