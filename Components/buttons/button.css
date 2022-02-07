@@ -91,8 +91,13 @@
 
 .floating-btn
 {
-    height: 15px;
-    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 3.25rem;
+    width: 3.25rem;
     border-radius: 50%;
     background-color: var(--primary-color);
+    color: var(--default-btn-color);
 }
