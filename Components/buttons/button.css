@@ -4,13 +4,19 @@
 :root
 {
     --default-btn-color: black;
+    --secondary-btn-color: #d8d8da; 
 }
 
-
-.btn-outline:hover
+.btn-outline
 {
     background-color: white;
   
+}
+
+.btn-outline:hover
+{
+  
+  background-color: var(--primary-color);
 }
 
 .btn-link
@@ -39,4 +45,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.btn-secondary
+{
+    background-color:var(--secondary-btn-color) ;
+    border: 3px solid var(--secondary-btn-color);
+}
+
+.btn-secondary-outline
+{
+    background-color: white;
+  border-color: var(--secondary-btn-color);
+}
+
+.btn-secondary-outline:hover
+{
+  
+  background-color: var(--secondary-btn-color);
+}
+
+
+.btn-link-secondary
+{
+    color: var(--default-btn-color);
+    font-size: 1.25rem; 
+}
+.btn-link-secondary:hover
+{
+    color: #d8d8da;
+}
+
+.btn-icon-secondary
+{
+    
+        font-size: 1.5rem;
+   
+}
+.btn-icon-secondary:hover
+    {
+        color: var(--secondary-btn-color);
+    
+}
+
+
+.floating-btn
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
 }
