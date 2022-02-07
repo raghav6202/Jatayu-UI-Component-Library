@@ -1,0 +1,33 @@
+@import url("styles.css");
+
+
+.img-resp
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img
+{
+    height: 10em;
+    width: 10rem;
+    object-fit: cover;
+    margin: 0.5rem;
+}
+
+.square
+{
+    border-radius: 0;
+}
+
+.circular
+{
+    border-radius: 50%;
+}
+
+.rectangle
+{
+    height: 10em;
+    width: 20rem;
+}
