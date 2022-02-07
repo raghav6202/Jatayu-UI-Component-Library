@@ -117,13 +117,14 @@ color: var(--primary-color);
     background-color: var(--primary-color);
     border-radius: 7px;
     border: var(--primary-color);
-
+    border: 3px solid var(--primary-color);
+    margin: 0.5rem;
 
 }
 .btn-next:hover
 {
     background-color: white;
-    border: 3px solid var(--primary-color);
+  
 }
 
 .installation-container

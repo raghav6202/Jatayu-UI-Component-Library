@@ -1,1 +1,42 @@
 @import url("styles.css");
+
+
+:root
+{
+    --default-btn-color: black;
+}
+
+
+.btn-outline:hover
+{
+    background-color: white;
+  
+}
+
+.btn-link
+{
+ color: var(--default-btn-color);
+    font-size: 1.25rem;
+}
+
+.btn-link:hover
+{
+    color: var(--primary-color);
+}
+
+.btn-icon
+{
+    font-size: 1.5rem;
+}
+
+.btn-icon:hover
+{
+    color: var(--primary-color);
+}
+
+.btn-icon-text
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
