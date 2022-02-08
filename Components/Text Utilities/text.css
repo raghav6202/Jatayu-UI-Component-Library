@@ -1,0 +1,50 @@
+@import url("styles.css");
+
+
+.typo-container
+{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.7rem;
+
+}
+
+.h1
+{
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: bolder;
+    
+}
+
+.h2
+{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    
+}
+
+.h3
+{
+    font-size: 1.17rem;
+    line-height: 2rem;
+    font-weight: bolder;
+ 
+}
+
+.h4
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    
+}
+
+.h5
+{
+    font-size: 0.83rem;
+    line-height: 1rem;
+    font-weight: bolder;
+    
+}
