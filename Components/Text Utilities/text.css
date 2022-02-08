@@ -1,5 +1,11 @@
 @import url("styles.css");
 
+:root
+{
+    --gray-color: gray;
+    --red-text: red;
+}
+
 
 .typo-container
 {
@@ -46,5 +52,63 @@
     font-size: 0.83rem;
     line-height: 1rem;
     font-weight: bolder;
+    
+}
+
+.text
+{
+    font-size: 1.25rem;
+}
+.small
+{
+    font-size: 0.7rem;
+}
+
+.gray
+{
+    color: var(--gray-color);
+}
+.primaryclr
+{
+    color: var(--primary-color);
+}
+
+.red
+{
+    color: var(--red-text);
+}
+
+.bold
+{
+    font-weight: 700;
+}
+
+
+.strike
+{
+    text-decoration: line-through;
+}
+
+.left
+{
+text-align: left;
+margin: 1rem 0 1rem 0;
+}
+
+.center
+{
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.right
+{
+    text-align: right;
+    margin: 1rem 0 1rem 0;
+}
+
+.typo-container2
+{
+    display: block;
     
 }
