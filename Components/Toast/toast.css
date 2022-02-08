@@ -1,1 +1,36 @@
 @import url("styles.css");
+
+:root{
+
+    --success-color:rgb(29, 226, 95);
+    --failure-color:red;
+    --processing-color:rgb(247, 247, 54);
+}
+
+.toast
+{
+display: flex;
+gap: 1rem;
+align-items: center;
+    padding: 1rem 0.7rem ;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: auto;
+}
+
+.success
+{
+    background-color: var(--success-color);
+ 
+}
+
+.failure
+{
+   
+    background-color: var(--failure-color);
+}
+
+.processing
+{
+    background-color: var(--processing-color);
+}
