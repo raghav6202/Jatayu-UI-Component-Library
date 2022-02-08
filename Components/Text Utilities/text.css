@@ -1,114 +1,98 @@
 @import url("styles.css");
 
-:root
-{
+:root {
     --gray-color: gray;
     --red-text: red;
 }
 
 
-.typo-container
-{
+.typo-container {
     display: flex;
     flex-flow: column wrap;
     gap: 0.7rem;
 
 }
 
-.h1
-{
+.h1 {
     font-size: 2rem;
     line-height: 4rem;
     font-weight: bolder;
-    
+
 }
 
-.h2
-{
+.h2 {
     font-size: 1.5rem;
     line-height: 2.5rem;
     font-weight: bolder;
-    
+
 }
 
-.h3
-{
+.h3 {
     font-size: 1.17rem;
     line-height: 2rem;
     font-weight: bolder;
- 
+
 }
 
-.h4
-{
+.h4 {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: bolder;
-    
+
 }
 
-.h5
-{
+.h5 {
     font-size: 0.83rem;
     line-height: 1rem;
     font-weight: bolder;
-    
+
 }
 
-.text
-{
+.text {
     font-size: 1.25rem;
 }
-.small
-{
+
+.small {
     font-size: 0.7rem;
 }
 
-.gray
-{
+.gray {
     color: var(--gray-color);
 }
-.primaryclr
-{
+
+.primaryclr {
     color: var(--primary-color);
 }
 
-.red
-{
+.red {
     color: var(--red-text);
 }
 
-.bold
-{
+.bold {
     font-weight: 700;
 }
 
 
-.strike
-{
+.strike {
     text-decoration: line-through;
 }
 
-.left
-{
-text-align: left;
-margin: 1rem 0 1rem 0;
+.left {
+    text-align: left;
+    margin: 1rem 0 1rem 0;
 }
 
-.center
-{
+.center {
     text-align: center;
     margin: 1rem 0 1rem 0;
 }
 
-.right
-{
+.right {
     text-align: right;
     margin: 1rem 0 1rem 0;
 }
 
-.typo-container2
-{
+.typo-container2 {
     display: block;
-    
+
 }
