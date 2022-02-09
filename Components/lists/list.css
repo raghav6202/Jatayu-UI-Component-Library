@@ -57,7 +57,7 @@
     background-color: var(--primary-color);
     border-radius: 0.4rem;
     padding: 1rem;
-  
+
 }
 
 .job-info {
@@ -100,18 +100,15 @@
 }
 
 
-@media  screen and (max-width: 768px)
- {
-    
-    .job-info
-    {
+@media screen and (max-width: 768px) {
+
+    .job-info {
         margin: 1rem;
     }
 
-    .job-apply
-    {
+    .job-apply {
         margin: 1rem;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
 }
