@@ -1,6 +1,14 @@
 @import url("styles.css");
 
-
+#logo
+{
+    font-size: 2rem;
+    margin: 0.25rem;
+}
+.nav-heading
+{
+    color: black;
+}
 .nav-logo
 {
     display: flex;
@@ -8,11 +16,12 @@
     width: 90%;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    color: black;
 }
 
 .seacrch-bar
 {
-    width: 100%;
+    width: 30%;
     padding: 1rem;
     outline: none;
     border: none;
@@ -20,9 +29,26 @@
     background-color: var(--primary-color);
 }
 
-.search-component,
+.search-component
 {
   
-    width: 80%;
+    /* width: 90%; */
 
+}
+
+.nav-items
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 0.3rem;
+margin: 0.5rem;
+text-decoration: none;
+color:black;
+font-size: 1.1rem;
+}
+
+.nav-items:hover
+{
+    color: white;
 }
