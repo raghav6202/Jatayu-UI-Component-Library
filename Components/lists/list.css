@@ -1,107 +1,97 @@
 @import url("styles.css");
 
-:root
-{
+:root {
     --list-heading-bg: #60A5FA;
     --LIST-SECONDARY-BG: #EF4444;
 
 }
 
-.square-bullets
-{
+.square-bullets {
 
     list-style-type: square;
 }
 
-.circular-bullets
-{
+.circular-bullets {
     list-style-type: circle;
 }
 
-.no-bullets
-{
+.no-bullets {
     list-style-type: none;
 }
 
-.roman-small-numbering
-{
+.roman-small-numbering {
     list-style-type: lower-roman;
 }
 
-.roman-big-numbering
-{
+.roman-big-numbering {
     list-style-type: upper-roman;
 }
 
-.alphabet-small-numbering
-{
+.alphabet-small-numbering {
     list-style-type: lower-alpha;
 }
 
-.alphabet-big-numbering
-{
+.alphabet-big-numbering {
     list-style-type: upper-alpha;
 }
 
-.reversed-numbering
-{
+.reversed-numbering {
     display: flex;
     flex-flow: column-reverse;
 }
-.list-container2
-{
+
+.list-container2 {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
     gap: 0.5rem;
 }
-.list-component
-{
+
+.list-component {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     width: 70%;
     background-color: var(--primary-color);
     border-radius: 0.4rem;
     padding: 1rem;
+  
 }
 
-.job-info
-{
+.job-info {
     display: flex;
     flex-flow: column;
     gap: 0.5rem;
 
 }
-.list-highlight
-{
+
+.list-highlight {
     background-color: var(--list-heading-bg);
     border-radius: 0.4rem;
-   padding: 0.3rem;
+    padding: 0.3rem;
 }
-.list-caption
-{
+
+.list-caption {
 
     font-weight: 600;
-    
+
 }
 
-.job-time
-{
+.job-time {
     background-color: var(--LIST-SECONDARY-BG);
     border-radius: 0.4rem;
     padding: 0.3rem;
-} 
+}
 
-.job-descpr
-{
+.job-descpr {
     display: flex;
-   gap: 0.5rem;
+    gap: 0.5rem;
     align-items: center;
 }
 
-.job-apply
-{
+.job-apply {
     display: flex;
     flex-flow: column;
     gap: 0.5rem;
@@ -109,3 +99,19 @@
     align-items: flex-end;
 }
 
+
+@media  screen and (max-width: 768px)
+ {
+    
+    .job-info
+    {
+        margin: 1rem;
+    }
+
+    .job-apply
+    {
+        margin: 1rem;
+        align-items: flex-start; 
+    }
+
+}
