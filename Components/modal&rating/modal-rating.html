@@ -1,99 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="modal-rating.css">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 </head>
+
 <body>
-    
+
     <hr>
-    <section class="alert-component component">
-    
-    <div class="component-info">
-        <div class="component-heading">Modal</div>
-    
-        <p class="info-text">Alerts are used to show alert messages to the user.It acts as an attention grabber</p>
-    
-    <div class="component-sub-heading">Normal Alert Bar </div>
-    
-    <p>Alerts are available in 5 different styles.You need to include
-         these classes in the div tag.Choose the appropriate style according to your requirement
-          <b> alert primary, alert secondary, alert success, alert fail, alert warning (e.g. class="alert warning")</b>
-    
-    
-    
-    </div>
-    
-    <div class="alert-container component-display-container">
-    
-   <div class="modal-component">
+    <section class="modal-component component">
 
-    <div class="modal-title component-sub-heading">Modal Title</div>
+        <div class="component-info">
+            <div class="component-heading">Modal</div>
 
-    <div class="modal-content info-text">The modal content goes here</div>
+            <p class="info-text">Modals are dialog boxes that are used to grab user attention.Usually when a modal is
+                displayed the user cannot acess other content</p>
+            <div class="component-sub-heading">Modal Box</div>
 
-<div class="modal-footer"><button class="btn btn-close">Close</button> <button class="btn btn-save">Save Changes</button></div>
+            <p>An example of modal block is shown below.Copy and paste the HTML code displayed below in your code
+                editor.</p>
 
-   </div>
-    
-    </div>
-    
-    <div class="code-snippet">
-    
-      <iframe
-      src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
-    
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
-    </div>
-    
-    <div class="component-info">
-    <div class="component-sub-heading">Alert bar with close button</div>
-    
-    <p >These type of alert bars have a close button to close the alert bar </p>
-    </div>
-    
-    <div class="alert-container component-display-container">
-    
-      <div class="alert primary close">
-        This is a primary alert
-        <i class="fi-xwluxl-times-wide close-icon"></i>
-      </div>
+        </div>
 
-      <div class="alert secondary close">This is a secondary alert
-         <i class="fi-xwluxl-times-wide close-icon"></i></div>
-      
-      <div class="alert success close"> <div class="alert-text alert">
-        <i class="fi-cwsuxl-check"></i>This is a success alert </div>
-        <div class="close-icon"><i class="fi-xwluxl-times-wide"></i></div> </div>
+        <div class="modal-container component-display-container">
 
-      <div class="alert fail close"><div class="alert-text alert">
-        <i class="fi-cnsuxl-exclamation-mark-rounded"></i>This is a fail alert</div>
-        <div class="close-icon"><i class="fi-xwluxl-times-wide"></i></div></div>
+            <div class="modal-box">
 
-      <div class="alert warning close"><div class="alert-text alert">
-        <i class="fi-ensuxl-warning-solid"></i>This is a warning alert</div>
-        <div class="close-icon"><i class="fi-xwluxl-times-wide"></i></div></div>
-    </div>
-    
-    <div class="code-snippet">
-    
-      <iframe
-      src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
-   
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
-    
-    </div>
-    
-    
-    
+                <div class="modal-title component-sub-heading">Modal Title</div>
+
+                <div class="modal-content info-text">The modal content goes here</div>
+
+                <div class="modal-footer"><button class="btn btn-close">Close</button> <button class="btn btn-save">Save
+                        Changes</button></div>
+
+            </div>
+
+        </div>
+
+        <div class="code-snippet">
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-box%2522%253E%250A%250A%253Cdiv%2520class%253D%2522modal-title%2520component-sub-heading%2522%253EModal%2520Title%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522modal-content%2520info-text%2522%253EThe%2520modal%2520content%2520goes%2520here%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522modal-footer%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-close%2522%253EClose%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn-save%2522%253ESave%2520Changes%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+
     </section>
     <hr>
 
 
+    <section class="rating-component component">
+
+        <div class="component-info">
+            <div class="component-heading">Rating</div>
+
+            <p class="info-text">Rating bars can be used in websites to display the user ratings on a particular product
+                or service.</p>
+
+            <div class="component-sub-heading">Static Rating Bar </div>
+
+            <p>The Rating Bar shown below cal be used by placing <b>glowing-star,normal-star</b> classes.
+                <b>(e.g. class="glowing-star")</b> for the star to glow and <b>(e.g. class="normal-star")</b> otherwise.
+
+
+
+        </div>
+
+        <div class="rating-container component-display-container">
+
+            <div class="rating-box">
+
+                <div class="glowing-star"><i class="fi-xnsuxl-star-solid"></i></div>
+                <div class="glowing-star"><i class="fi-xnsuxl-star-solid"></i></div>
+                <div class="normal-star"><i class="fi-xnsuxl-star-solid"></i></div>
+                <div class="normal-star"><i class="fi-xnsuxl-star-solid"></i></div>
+                <div class="normal-star"><i class="fi-xnsuxl-star-solid"></i></div>
+
+
+            </div>
+
+        </div>
+
+        <div class="code-snippet">
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522glowing-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522glowing-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522normal-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522normal-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522normal-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+
+    </section>
+    <hr>
+
 </body>
+
 </html>
