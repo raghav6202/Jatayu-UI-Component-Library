@@ -1,0 +1,108 @@
+@import url("styles.css");
+
+:root {
+    --error-color: red;
+    --default-color: black;
+    --match-color: white;
+}
+
+
+.form-container {
+    display: flex;
+    flex-flow: column wrap;
+
+    gap: 1.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+
+.input-batch {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    gap: 0.75rem;
+
+
+
+}
+
+.input-field {
+
+    border: var(--match-color);
+    background-color: var(--match-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 0.7rem 1.4rem;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.name-field {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.label-text {
+    font-size: 1.25rem;
+
+}
+
+.validation {
+    color: var(--error-color);
+}
+
+.validation-input {
+    border-bottom: 2px solid var(--error-color);
+}
+
+.text-field {
+    font-size: 1.1rem;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid var(--default-color);
+    width: 80%;
+    height: 100%;
+}
+
+.text-field:focus {
+    border: 2px solid var(--primary-color);
+}
+
+/* 
+.input-other
+{
+
+  height: 2.5rem;
+
+ 
+} */
+
+
+@media screen and (max-width:640px) {
+
+    .input-batch {
+
+        margin: 0.3rem;
+
+    }
+
+    .input-field {
+
+
+        padding: 0.7rem;
+        font-size: 0.8rem;
+
+    }
+
+    .label-text {
+        font-size: 1.1rem;
+    }
+
+
+}

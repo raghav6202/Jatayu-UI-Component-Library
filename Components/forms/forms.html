@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <hr>
+    <section class="alert-component component">
+
+        <div class="component-info">
+            <div class="component-heading">Inputs</div>
+
+            <p class="info-text">Inputs are an integral part of websites.They collect the
+                data which the user inputs and store them in the servers</p>
+
+            <div class="component-sub-heading">Input Fields</div>
+
+            <p>There are various types of input types available.A form is designed below conataining all the major input
+                types.Copy and paste the HTML code in your editor.
+                <b> (e.g. class="label-text")</b>
+
+
+
+        </div>
+
+        <div class="form-container component-display-container">
+
+
+            <div class="input-batch">
+                <label for="" class="label-text"> Enter Your Name</label>
+                <div class="name-field">
+                    <input type="text" placeholder="First Name" class="input-field">
+                    <input type="text" placeholder="Last Name" class="input-field">
+                </div>
+            </div>
+
+            <div class="input-batch">
+                <label for="" class="label-text">Disabled Field</label>
+                <input type="text" placeholder="Disabled" class="input-field" disabled>
+            </div>
+
+            <div class="input-batch">
+                <label for="" class="label-text">Date Of Brith</label>
+                <input type="date" class="input-field">
+            </div>
+
+            <div class="input-batch">
+                <label for="" class="label-text">Gender</label>
+                <select name="Gender" class="input-field">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="trans">Transgender</option>
+                    <option value="nothing">Rather Not Say</option>
+                </select>
+
+            </div>
+
+            <div class="input-batch">
+                <label for="" class="label-text">Enter Your Email</label>
+                <input type="email" placeholder="E-Mail" class="input-field">
+
+            </div>
+
+            <div class="input-batch">
+                <label for="" class="label-text validation">Enter Your password</label>
+                <input type="password" placeholder="Password" class="input-field validation-input">
+                <label for="" class="validation">Incorrect Password! Try Again</label>
+            </div>
+
+
+
+        </div>
+
+        <div class="code-snippet">
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253E%2520Enter%2520Your%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522First%2520Name%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Last%2520Name%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EDisabled%2520Field%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2522%2520class%253D%2522input-field%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EDate%2520Of%2520Brith%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522date%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EGender%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cselect%2520name%253D%2522Gender%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522female%2522%253EFemale%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522male%2522%253EMale%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522trans%2522%253ETransgender%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522nothing%2522%253ERather%2520Not%2520Say%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EEnter%2520Your%2520Email%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522E-Mail%2522%2520class%253D%2522input-field%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2520validation%2522%253EEnter%2520Your%2520password%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520class%253D%2522input-field%2520validation-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522validation%2522%253EIncorrect%2520Password%21%2520Try%2520Again%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div class="component-info">
+            <div class="component-sub-heading">Text Area</div>
+
+            <p>Text Area can be used to enter long paragraphs of data. </p>
+        </div>
+
+        <div class="form-container component-display-container">
+
+            <label for="" class="label-text">Write in the Text Area</label>
+
+            <textarea name="" id="" placeholder="start writting...." class="text-field" rows="5"></textarea>
+
+        </div>
+
+        <div class="code-snippet">
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EWrite%2520in%2520the%2520Text%2520Area%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522start%2520writting....%2522%2520class%253D%2522text-field%2522%2520rows%253D%25225%2522%253E%253C%252Ftextarea%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </div>
+
+        <div class="component-info">
+            <div class="component-sub-heading">Other Inputs</div>
+
+            <p>It conatins <b>Checkbox,Color Selector,Radio,Range</b>.</p>
+            <ul>
+
+                <li> <b>Checkbox</b> can be used by the user to select one or more items from a set</li>
+                <li> <b>Color Selector</b> can be used to select a wide range of colors </li>
+                <li> <b>Radio Button</b> are used when the user must make only one selection out of a group of items.
+                </li>
+                <li> <b>Range Selector</b> can be used as a range slider for values with a wide range. This one is set
+                    to be a number between 0 and 100</li>
+
+
+            </ul>
+        </div>
+
+        <div class="form-container2 component-display-container">
+
+            <div class="input-batch">
+                <label class="label-text">Checkbox</label>
+                <input type="checkbox" class="input-other">
+            </div>
+
+            <div class="input-batch">
+                <label class="label-text">Color Selector</label>
+                <input type="color" class="input-other">
+            </div>
+
+            <div class="input-batch">
+                <label class="label-text">Radio</label>
+                <input type="radio" class="input-other">
+            </div>
+
+            <div class="input-batch">
+                <label class="label-text">Range</label>
+                <input type="range" class="input-other">
+            </div>
+
+        </div>
+
+        <div class="code-snippet">
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253ECheckbox%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253EColor%2520Selector%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522color%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253ERadio%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253ERange%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </div>
+
+
+    </section>
+    <hr>
+</body>
+
+</html>
