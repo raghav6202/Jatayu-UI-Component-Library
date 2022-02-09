@@ -105,5 +105,7 @@
     display: flex;
     flex-flow: column;
     gap: 0.5rem;
+    justify-content: center;
+    align-items: flex-end;
 }
 
