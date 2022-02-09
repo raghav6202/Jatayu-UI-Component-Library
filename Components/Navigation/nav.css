@@ -1,1 +1,28 @@
 @import url("styles.css");
+
+
+.nav-logo
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.seacrch-bar
+{
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.search-component,
+{
+  
+    width: 80%;
+
+}
