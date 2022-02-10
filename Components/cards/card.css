@@ -4,12 +4,12 @@
     --shadow-color: #d4d4d8;
     --badge-color: #f43f5e;
     --buybtn-bg-color: #22d3ee;
+    --block-clr: #e4e4e7;
     
 }
 
 .horizontal-cards
 {
-    box-shadow: 0rem 0rem 0.5rem 0.5rem var(--shadow-color);
    width: 90%;
    min-height: 10rem;
    display: flex;
@@ -32,14 +32,13 @@ position: relative;
 }
 .horizontal-badge
 {
-    padding: 0.2rem;
+    padding: 0.1rem;
     border-radius: 0.5rem;
     background-color: var(--badge-color);
-    width: 15px;
     position: relative;
-    bottom: 160px;
-    left: 96px;
-    
+    width: 60px;
+    bottom: 164px;
+    left: 97px;
 }
 
 .card-image
@@ -80,9 +79,59 @@ position: relative;
     background-color: var(--buybtn-bg-color) ;
 }
 
-
+.vertical-card
+{
+    width: 15rem;
+    box-sizing: border-box;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: column;
+    border-radius: 0.1rem;
+}
+.shadow
+{
+    box-shadow: 0rem 0rem 0.5rem 0.5rem var(--shadow-color);
+}
 .vertical-image-box
 {
-    height: 15px;
-    width: 15px;
+    box-sizing: border-box;
+height: 30%;
+}
+
+.vertical-card-image
+{
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-badge
+{
+    position: relative;
+    bottom: 315px;
+    left: 0px;
+    padding: 0.2rem;
+    border-radius: 0.1rem;
+    background-color: var(--badge-color);
+}
+
+.close-btn
+{
+    position: relative;
+    bottom: 319px;
+    left: 110px;
+    padding: 0.1rem;
+    font-size: 1.25rem;
+}
+
+.close-btn:hover
+{
+    
+    background-color: #d4d4d8;
+
+}
+
+.overlay-layer
+{
+    opacity: 0.5;
+    background-color:var(--block-clr) ;
 }
