@@ -1,115 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="button.css" />
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="button.css">
-  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
-  <title>Document</title>
-</head>
+  <body>
+    <hr />
+    <section class="button-component component">
+      <div class="component-info">
+        <div class="component-heading">Buttons</div>
 
-<body>
-  <hr>
-  <section class="button-component component">
+        <p class="info-text">
+          Buttons are the gateway for the user to implement a particular
+          action.They are one of the most important aspects in an web
+          application.
+        </p>
 
-    <div class="component-info">
-      <div class="component-heading">Buttons</div>
+        <div class="component-subHeading">Primary Button</div>
 
-      <p class="info-text">Buttons are the gateway for the user to implement a particular action.They are one of
-        the most important aspects in an web application.</p>
+        <p>
+          These are primary style buttons which you want the user to recognize
+          easily.Copy the HTML code below to get the buttons. Classes used are<b>
+            btn btn-primary, btn btn-outline, btn-link, btn-icon, btn
+            btn-icon-text (e.g. class="btn btn-primary").</b
+          >
+        </p>
+      </div>
 
-      <div class="component-subHeading">Primary Button</div>
+      <div class="button-container component-display-container">
+        <button class="btn btn-primary">Solid Button</button>
+        <button class="btn btn-outline">Outline Button</button>
+        <a href="" class="btn-link">Link Button</a>
+        <a
+          ><span class="btn-icon"><i class="fi-xnsuxl-user-solid"></i></span
+        ></a>
+        <button class="btn btn-icon-text">
+          <i class="fi-xnsuxl-user-solid"></i>Profile
+        </button>
+      </div>
 
-      <p>These are primary style buttons which you want the user to recognize easily.Copy the HTML code below to get the
-        buttons.
-        Classes used are<b> btn btn-primary, btn btn-outline, btn-link, btn-icon, btn btn-icon-text (e.g. class="btn
-          btn-primary").</b>
+      <div class="code-snippet">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESolid%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-link%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon-text%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253EProfile%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
 
+      <div class="component-info">
+        <div class="component-subHeading">Secondary Buttons</div>
 
+        <p>
+          These are Secondary style buttons which you don't want the user to
+          recognize easily.
+        </p>
+      </div>
 
-    </div>
+      <div class="button-container component-display-container">
+        <button class="btn btn-secondary">Solid Button</button>
+        <button class="btn btn-secondary-outline">Outline Button</button>
+        <a href="" class="btn-link-secondary">Link Button</a>
+        <a
+          ><span class="btn-icon-secondary"
+            ><i class="fi-xnsuxl-user-solid"></i></span
+        ></a>
+        <button class="btn btn-secondary btn-icon-text">
+          <i class="fi-xnsuxl-user-solid"></i> Profile
+        </button>
+        <button class="btn btn-secondary" disabled>Disabled</button>
+      </div>
 
-    <div class="button-container component-display-container">
+      <div class="code-snippet">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESolid%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-link-secondary%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Cspan%2520class%253D%2522btn-icon-secondary%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-icon-text%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%2520Profile%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%2520disabled%253EDisabled%253C%252Fbutton%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
 
-      <button class="btn btn-primary">Solid Button</button>
-      <button class="btn btn-outline">Outline Button</button>
-      <a href="" class="btn-link">Link Button</a>
-      <a><span class="btn-icon"><i class="fi-xnsuxl-user-solid"></i></span></a>
-      <button class="btn btn-icon-text"> <i class="fi-xnsuxl-user-solid"></i>Profile</button>
+      <div class="component-info">
+        <div class="component-subHeading">Floating Buttons</div>
 
+        <p>
+          Floating Buttons are buttons which are fixed at a certain part of your
+          websites.These buttons act as convinient navigators throught the
+          web-page
+        </p>
+      </div>
 
+      <div class="button-container component-display-container">
+        <a href=" " class="floating-btn"><i class="fi-xwluxl-plus-wide"></i></a>
+        <a href=" " class="floating-btn"
+          ><i class="fi-xnsdxl-chevron-solid"></i
+        ></a>
+        <a href=" " class="floating-btn"
+          ><i class="fi-xnsrxl-chevron-solid"></i
+        ></a>
+        <a href=" " class="floating-btn"
+          ><i class="fi-xnsuxl-home-solid"></i
+        ></a>
+      </div>
 
-    </div>
-
-    <div class="code-snippet">
-      <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESolid%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-link%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon-text%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253EProfile%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520"
-  
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
-    </div>
-
-    <div class="component-info">
-      <div class="component-subHeading">Secondary Buttons</div>
-
-      <p>These are Secondary style buttons which you don't want the user to recognize easily.</p>
-    </div>
-
-    <div class="button-container component-display-container">
-
-      <button class="btn btn-secondary">Solid Button</button>
-      <button class="btn btn-secondary-outline">Outline Button</button>
-      <a href="" class="btn-link-secondary">Link Button</a>
-      <a><span class="btn-icon-secondary"><i class="fi-xnsuxl-user-solid"></i></span></a>
-      <button class="btn btn-secondary btn-icon-text"> <i class="fi-xnsuxl-user-solid"></i> Profile</button>
-      <button class="btn btn-secondary" disabled>Disabled</button>
-
-    </div>
-
-
-    <div class="code-snippet">
-
-      <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESolid%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-link-secondary%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Cspan%2520class%253D%2522btn-icon-secondary%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-icon-text%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%2520Profile%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%2520disabled%253EDisabled%253C%252Fbutton%253E"
-
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
-
-    </div>
-
-
-    <div class="component-info">
-      <div class="component-subHeading">Floating Buttons</div>
-
-      <p>Floating Buttons are buttons which are fixed at a certain part of your websites.These buttons act as convinient
-        navigators throught the web-page </p>
-    </div>
-
-    <div class="button-container component-display-container">
-
-      <a href=" " class="floating-btn"><i class="fi-xwluxl-plus-wide"></i></a>
-      <a href=" " class="floating-btn"><i class="fi-xnsdxl-chevron-solid"></i></a>
-      <a href=" " class="floating-btn"><i class="fi-xnsrxl-chevron-solid"></i></a>
-      <a href=" " class="floating-btn"><i class="fi-xnsuxl-home-solid"></i></a>
-    </div>
-
-
-    <div class="code-snippet">
-
-      <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xwluxl-plus-wide%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsdxl-chevron-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsrxl-chevron-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-home-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E"
-    
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
-
-    </div>
-
-
-  </section>
-  <hr>
-
-</body>
-
+      <div class="code-snippet">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xwluxl-plus-wide%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsdxl-chevron-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsrxl-chevron-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-home-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+    </section>
+    <hr />
+  </body>
 </html>

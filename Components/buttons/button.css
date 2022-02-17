@@ -1,90 +1,82 @@
 @import url("styles.css");
 
-
 :root {
-    --default-btn-color: black;
-    --secondary-btn-color: #d8d8da;
+  --default-btn-color: black;
+  --secondary-btn-color: #d8d8da;
 }
 
 .btn-outline {
-    background-color: white;
-
+  background-color: white;
 }
 
 .btn-outline:hover {
-
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .btn-link {
-    color: var(--default-btn-color);
-    font-size: 1.25rem;
+  color: var(--default-btn-color);
+  font-size: 1.25rem;
 }
 
 .btn-link:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-icon {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .btn-icon:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-icon-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .btn-secondary {
-    background-color: var(--secondary-btn-color);
-    border: 3px solid var(--secondary-btn-color);
+  background-color: var(--secondary-btn-color);
+  border: 3px solid var(--secondary-btn-color);
 }
 
 .btn-secondary-outline {
-    background-color: white;
-    border-color: var(--secondary-btn-color);
+  background-color: white;
+  border-color: var(--secondary-btn-color);
 }
 
 .btn-secondary-outline:hover {
-
-    background-color: var(--secondary-btn-color);
+  background-color: var(--secondary-btn-color);
 }
 
-
 .btn-link-secondary {
-    color: var(--default-btn-color);
-    font-size: 1.25rem;
-    margin: 0.5rem;
+  color: var(--default-btn-color);
+  font-size: 1.25rem;
+  margin: 0.5rem;
 }
 
 .btn-link-secondary:hover {
-    color: #d8d8da;
+  color: #d8d8da;
 }
 
 .btn-icon-secondary {
-    margin: 0.5rem;
-    font-size: 1.5rem;
-
+  margin: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .btn-icon-secondary:hover {
-    color: var(--secondary-btn-color);
-
+  color: var(--secondary-btn-color);
 }
 
-
 .floating-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-    height: 3.25rem;
-    width: 3.25rem;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    color: var(--default-btn-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  height: 3.25rem;
+  width: 3.25rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--default-btn-color);
 }
