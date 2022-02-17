@@ -1,0 +1,73 @@
+@import url("styles.css");
+
+:root {
+    --close-btn-clr: #ef4444;
+    --close-hover-clr: #b91c1c;
+    --modal-bg-clr: #e5e5e5;
+}
+
+.modal-box {
+    height: 15rem;
+    width: 50%;
+    padding: 0.5rem;
+    background-color: var(--modal-bg-clr);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.modal-title {
+    height: 20%;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+
+.modal-content {
+    height: 40%;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.modal-footer {
+    height: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+
+.btn-close {
+    background-color: var(--close-btn-clr);
+}
+
+.btn-close:hover {
+    background-color: var(--close-hover-clr);
+}
+
+.btn-save:hover {
+    background-color: var(--secondary-color);
+}
+
+
+/* 
+----------------------rating---------------------------------- */
+
+
+
+.rating-box {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.glowing-star {
+    color: gold;
+}
+
+.normal-star {
+    color: var(--modal-bg-clr);
+}
