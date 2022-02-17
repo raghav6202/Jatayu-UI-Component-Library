@@ -5,6 +5,8 @@
     --primary-badge-color: rgb(31, 214, 31);
     --secondary-badge-color: rgb(168, 160, 160);
     --tertiary-badge-color: rgb(245, 48, 48);
+    --border-clr: white;
+    --def-status-clr: red;
 }
 
 .badge{
@@ -26,9 +28,9 @@ position: relative;
     min-width: 1.25rem;
     padding: 2px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--border-clr);
     display: flex;
-    background-color: red;
+    background-color: var(--def-status-clr);
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -71,7 +73,6 @@ position: relative;
     min-width: 1.25rem;
     padding: 2px;
     border-radius: 50%;
-    /* border: 2px solid white; */
     display: flex;
     font-weight: bold;
     background-color: var(--primary-color);
