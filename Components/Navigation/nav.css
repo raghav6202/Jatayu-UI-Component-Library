@@ -1,0 +1,45 @@
+@import url("styles.css");
+
+#logo {
+    font-size: 2rem;
+    margin: 0.25rem;
+}
+
+.nav-heading {
+    color: black;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.seacrch-bar {
+    width: 30%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+
+
+.nav-items {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.nav-items:hover {
+    color: white;
+}
