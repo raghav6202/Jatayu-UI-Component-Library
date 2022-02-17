@@ -1,0 +1,91 @@
+@import url("styles.css");
+
+:root
+{
+    --primary-badge-color: rgb(31, 214, 31);
+    --secondary-badge-color: rgb(168, 160, 160);
+    --tertiary-badge-color: rgb(245, 48, 48);
+    --border-clr: white;
+    --def-status-clr: red;
+}
+
+.badge{
+position: relative;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.img-badge
+{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.status-indicator
+{
+    height: 1.25rem;
+    min-width: 1.25rem;
+    padding: 2px;
+    border-radius: 50%;
+    border: 2px solid var(--border-clr);
+    display: flex;
+    background-color: var(--def-status-clr);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: .75em;
+    box-sizing: border-box;
+
+}
+
+.badge .img-badge ~ .status-indicator{
+ 
+    right: 0.5rem;
+    bottom: 0.5rem;
+    
+}
+
+.online
+{
+    background-color: var(--primary-badge-color);
+}
+
+.offline
+{
+    background-color: var(--secondary-badge-color);
+}
+
+.dnd
+{
+    background-color: var(--tertiary-badge-color);  
+}
+
+.icon-badge
+{
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.number-indicator
+{
+    height: 1.25rem;
+    min-width: 1.25rem;
+    padding: 2px;
+    border-radius: 50%;
+    display: flex;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+
+.icon-badge i ~ .number-indicator{
+ 
+    right: 0rem;
+ bottom: 1.75rem;
+    
+}
