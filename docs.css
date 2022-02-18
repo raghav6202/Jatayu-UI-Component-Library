@@ -6,7 +6,10 @@
     background-color: #E6E6E6;
 
 }
-
+.sub-texts
+{
+    margin: 0.5rem;
+}
 .library-container
 {
     display: flex;
