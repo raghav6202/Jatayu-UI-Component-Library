@@ -1,6 +1,11 @@
 @import url("./styles.css");
 
 
+.navigation-menu
+{
+    background-color: #E6E6E6;
+}
+
 .library-container
 {
     display: flex;
@@ -39,7 +44,7 @@
 .dropdown-options
 {
    font-size: 1.1rem;
- background-color: #E6E6E6;
+   background-color: #E6E6E6;
  margin: 5rem;
  padding: 1.5rem;
 
