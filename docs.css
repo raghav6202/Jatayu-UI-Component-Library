@@ -1,7 +1,9 @@
 
 @import url("./comp-lib.css");
 
-
+:root{
+    --gray-bg-color: #E6E6E6;
+}
 
 .sub-texts
 {
@@ -48,7 +50,7 @@
 .dropdown-options
 {
    font-size: 1.1rem;
-   background-color: #E6E6E6;
+   background-color: var(--gray-bg-color);
  margin: 5rem;
  padding: 1.5rem;
 
@@ -64,7 +66,7 @@
 
 .footer-container
 {
-    background-color: #E6E6E6;
+    background-color: var(--gray-bg-color);
 }
 
 .typo-text-container {
