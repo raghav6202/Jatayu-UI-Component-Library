@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="docs.css">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 </head>
 <body>
     
@@ -20,9 +21,9 @@
         
         <div class="right-side-nav"> 
         
-            <a class="sub-texts" href="http://">HOME</a>
-            <a class="sub-texts" href="http://">DOCS</a>
-            <a class="sub-texts" href="http://">LOG IN</a>
+            <a class="sub-texts" href="./index.html">HOME</a>
+            <a class="sub-texts" href="./docs.html">DOCS</a>
+            <a class="sub-texts" href="https://github.com/raghav6202/Jatayu-UI-Component-Library"><i class="fi-xnsuxl-github"></i></a>
         
             </div>
             
@@ -39,18 +40,19 @@
     <option class="dropdown-options" value="docs.html" selected="selected">COMPONENTS</option>
     <option class="dropdown-options"  value="#alert">Alert</option>
     <option class="dropdown-options" value="#avatar">Avatar</option>
-    <option class="dropdown-options" value="alert">Badges</option>
-    <option class="dropdown-options" value="alert">Buttons</option>
-    <option class="dropdown-options" value="alert">Cards</option>
-    <option class="dropdown-options" value="alert">Forms</option>
-    <option class="dropdown-options" value="alert">Grids</option>
-    <option class="dropdown-options" value="alert">Image</option>
-    <option class="dropdown-options" value="alert">Lists</option>
-    <option class="dropdown-options" value="alert">Modal </option>
-    <option class="dropdown-options" value="alert">Rating</option>
-    <option class="dropdown-options" value="alert">Navigation</option>
-    <option class="dropdown-options" value="alert">Toast</option>
-    <option class="dropdown-options" value="alert">Typography</option>
+    <option class="dropdown-options" value="#badge">Badges</option>
+    <option class="dropdown-options" value="#button">Buttons</option>
+    <option class="dropdown-options" value="#cards">Cards</option>
+    <option class="dropdown-options" value="#forms">Forms</option>
+    <option class="dropdown-options" value="#grids">Grids</option>
+    <option class="dropdown-options" value="#images">Image</option>
+    <option class="dropdown-options" value="#lists">Lists</option>
+    <option class="dropdown-options" value="#modal">Modal </option>
+    <option class="dropdown-options" value="#rating">Rating</option>
+    <option class="dropdown-options" value="#nav">Navigation</option>
+    <option class="dropdown-options" value="#typo">Typography</option>
+    <option class="dropdown-options" value="#toasts">Toast</option>
+    
 
 
 
@@ -211,16 +213,1284 @@
 <hr>
 <!-- --------------------------------- -->
 
+<hr>
+<section class="badge-component component" id="badge">
+  <div class="component-info">
+    <div class="component-heading">Badges</div>
+
+    <p class="info-text">
+      Profile Badges are used to show the current status of the user
+    </p>
+
+    <div class="component-sub-heading">
+      Profile Badges and Numbered Badges
+    </div>
+
+    <p>
+      Badges are available in 2 different types . The first type displays
+      the status of the user.The second type is used to show the
+      notification count.You need to include <b> badge </b>class for profile
+      status and depending on the status you can use
+      <b> online, offline and dnd </b>classes.If you want the notification
+      badge you can use <b>icon-badge</b> class
+      <b>(e.g. class="badge" , class="icon-badge" )</b>
+    </p>
+  </div>
+
+  <div class="component-display-container">
+    <div class="badge">
+      <img
+        class="img-badge"
+        src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?s=612x612"
+        alt="avatar image"
+      />
+      <span class="status-indicator online"></span>
+    </div>
+
+    <div class="badge">
+      <img
+        class="img-badge"
+        src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?s=612x612"
+        alt="avatar image"
+      />
+      <span class="status-indicator offline"></span>
+    </div>
+
+    <div class="badge">
+      <img
+        class="img-badge m"
+        src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?s=612x612"
+        alt="avatar image"
+      />
+      <span class="status-indicator dnd"></span>
+    </div>
+
+    <div class="icon-badge">
+      <i class="fi-xwsuhl-shopping-cart-solid"></i>
+      <span class="number-indicator">7</span>
+    </div>
+
+    <div class="icon-badge">
+      <i class="fi-xwsuxl-envelope-solid"></i>
+      <span class="number-indicator">8</span>
+    </div>
+  </div>
+
+  <div class="code-snippet">
+    <iframe
+      src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
+      sandbox="allow-scripts allow-same-origin"
+    >
+    </iframe>
+  </div>
+</section>
+<hr />
+<!-- --------------------------------- -->
+
+<hr />
+<section class="button-component component" id="button">
+  <div class="component-info">
+    <div class="component-heading">Buttons</div>
+
+    <p class="info-text">
+      Buttons are the gateway for the user to implement a particular
+      action.They are one of the most important aspects in an web
+      application.
+    </p>
+
+    <div class="component-subHeading">Primary Button</div>
+
+    <p>
+      These are primary style buttons which you want the user to recognize
+      easily.Copy the HTML code below to get the buttons. Classes used are<b>
+        btn btn-primary, btn btn-outline, btn-link, btn-icon, btn
+        btn-icon-text (e.g. class="btn btn-primary").</b
+      >
+    </p>
+  </div>
+
+  <div class="button-container component-display-container">
+    <button class="btn btn-primary">Solid Button</button>
+    <button class="btn btn-outline">Outline Button</button>
+    <a href="" class="btn-link">Link Button</a>
+    <a
+      ><span class="btn-icon"><i class="fi-xnsuxl-user-solid"></i></span
+    ></a>
+    <button class="btn btn-icon-text">
+      <i class="fi-xnsuxl-user-solid"></i>Profile
+    </button>
+  </div>
+
+  <div class="code-snippet">
+    <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESolid%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-link%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon-text%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253EProfile%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520"
+      sandbox="allow-scripts allow-same-origin"
+    >
+    </iframe>
+  </div>
+
+  <div class="component-info">
+    <div class="component-subHeading">Secondary Buttons</div>
+
+    <p>
+      These are Secondary style buttons which you don't want the user to
+      recognize easily.
+    </p>
+  </div>
+
+  <div class="button-container component-display-container">
+    <button class="btn btn-secondary">Solid Button</button>
+    <button class="btn btn-secondary-outline">Outline Button</button>
+    <a href="" class="btn-link-secondary">Link Button</a>
+    <a
+      ><span class="btn-icon-secondary"
+        ><i class="fi-xnsuxl-user-solid"></i></span
+    ></a>
+    <button class="btn btn-secondary btn-icon-text">
+      <i class="fi-xnsuxl-user-solid"></i> Profile
+    </button>
+    <button class="btn btn-secondary" disabled>Disabled</button>
+  </div>
+
+  <div class="code-snippet">
+    <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESolid%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-link-secondary%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Cspan%2520class%253D%2522btn-icon-secondary%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-icon-text%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%2520Profile%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%2520disabled%253EDisabled%253C%252Fbutton%253E"
+      sandbox="allow-scripts allow-same-origin"
+    >
+    </iframe>
+  </div>
+
+  <div class="component-info">
+    <div class="component-subHeading">Floating Buttons</div>
+
+    <p>
+      Floating Buttons are buttons which are fixed at a certain part of your
+      websites.These buttons act as convinient navigators throught the
+      web-page
+    </p>
+  </div>
+
+  <div class="button-container component-display-container">
+    <a href=" " class="floating-btn"><i class="fi-xwluxl-plus-wide"></i></a>
+    <a href=" " class="floating-btn"
+      ><i class="fi-xnsdxl-chevron-solid"></i
+    ></a>
+    <a href=" " class="floating-btn"
+      ><i class="fi-xnsrxl-chevron-solid"></i
+    ></a>
+    <a href=" " class="floating-btn"
+      ><i class="fi-xnsuxl-home-solid"></i
+    ></a>
+  </div>
+
+  <div class="code-snippet">
+    <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xwluxl-plus-wide%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsdxl-chevron-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsrxl-chevron-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2520%2522%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-home-solid%2522%253E%253C%252Fi%253E%253C%252Fa%253E"
+      sandbox="allow-scripts allow-same-origin"
+    >
+    </iframe>
+  </div>
+</section>
+<hr />
+
+
+<!-- --------------------------------- -->
+
+<hr />
+    <section class="card-component component" id="cards">
+        <div class="component-info">
+            <div class="component-heading">Cards</div>
+
+            <p class="info-text">
+                Cards are used to display data effectively in a stylish manner.The can be used in E-Commerce
+                sites,image-libraries,LMS etc. </p>
+
+            <div class="component-sub-heading">Horizontal Cards</div>
+
+            <p>
+                The Cards Contents are arranged horizontally in this particular style.Copy the code below and paste it
+                in your editor.</p>
+            </p>
+        </div>
+
+        <div class="card-container component-display-container">
+            <div class="horizontal-cards shadow">
+                <div class="horizontal-image-box">
+                    <img class="horizontal-card-image" src="images\lars-kaizer-376AJQ5TBrA-unsplash (1).jpg" alt="card-image" />
+                    <div class="horizontal-badge">Offers%</div>
+
+                </div>
+
+                <div class="horizontal-card-info">
+                    <div class="horizontal-card-heading">Mobile Cover</div>
+                    <small> Sold By:R.C APPARELS</small>
+
+                    <div class="horizontal-card-price">Price: $99</div>
+
+                    <div class="horizontal-card-text">
+                        A trendy mobile cover for GOOGLE Pixel-5.Comes with a
+                        complemenatry screen guard.
+                    </div>
+
+                    <div class="horizontal-card-buttons">
+                        <button class="horizontal-btn-buy btn">Buy</button>
+                        <button class="horizontal-btn-cart btn">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="horizontal-cards shadow">
+                <div class="horizontal-image-box">
+                    <img class="horizontal-card-image" src="images\lars-kaizer-376AJQ5TBrA-unsplash (1).jpg"  alt="card-image"/>
+                </div>
+
+                <div class="horizontal-card-info">
+                    <div class="horizontal-card-heading">Mobile Cover</div>
+                    <small> Sold By:R.C APPARELS</small>
+
+                    <div class="horizontal-card-text">
+                        A trendy mobile cover for GOOGLE Pixel-5.Comes with a
+                        complemenatry screen guard.
+                    </div>
+
+                    <div class="horizontal-card-buttons">
+                        <button class="horizontal-btn-buy btn">Buy</button>
+                        <button class="horizontal-btn-cart btn">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- </div> -->
+
+        <div class="code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=592&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-cards%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-image-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522images%255Clars-kaizer-376AJQ5TBrA-unsplash%2520%281%29.jpg%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-badge%2522%253EOffers%2525%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253EMobile%2520Cover%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E%2520Sold%2520By%253AR.C%2520APPARELS%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253EPrice%253A%2520%252499%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520trendy%2520mobile%2520cover%2520for%2520GOOGLE%2520Pixel-5.Comes%2520with%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520complemenatry%2520screen%2520guard.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-buy%2520btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2520btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-cards%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-image-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522images%255Clars-kaizer-376AJQ5TBrA-unsplash%2520%281%29.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253EMobile%2520Cover%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E%2520Sold%2520By%253AR.C%2520APPARELS%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520trendy%2520mobile%2520cover%2520for%2520GOOGLE%2520Pixel-5.Comes%2520with%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520complemenatry%2520screen%2520guard.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-buy%2520btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2520btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+
+
+        <div class="component-info">
+            <div class="component-sub-heading">Vertical Cards</div>
+
+            <p>
+                The Cards Contents are arranged Vertically in this particular style.Multiple styles of vertical cards
+                are displayed below.Copy the code and paste it in your editor.</p>
+            </p>
+
+        </div>
+
+        <div class="card-container component-display-container">
+            
+            <div class="ecomm vertical-card ">
+                <div class="vertical-card-image">
+                    <img src="https://images.pexels.com/photos/7723361/pexels-photo-7723361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="card-pic" />
+                </div>
+        
+                <div class="vertical-badge">
+                    NEW ARRIVAL
+                </div>
+                <button class="close-btn">
+                    <i class="fi-xwluxl-times-wide"></i>
+                </button>
+        
+                <div class="card-heading">
+                    Mobile Cover
+                </div>
+                <div class="card-text">
+                    Sold By:R.C APPARELS
+                </div>
+                <div class="card-price">
+                    Rs. 100
+                </div>
+                <button class="btn-cart btn">
+                    ADD TO CART
+                </button>
+        
+            </div>
+        
+            <div class="ecomm vertical-card">
+                <div class="overlay-text">
+                <div class="vertical-card-image">
+                    <img src="https://images.pexels.com/photos/7723361/pexels-photo-7723361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="card-pic" />
+                </div>
+        
+                <div class="vertical-badge">
+                    NEW ARRIVAL
+                </div>
+                <button class="close-btn">
+                    <i class="fi-xwluxl-times-wide"></i>
+                </button>
+        
+                <div class="card-heading">
+                    Mobile Cover
+                </div>
+                <div class="card-text">
+                    Sold By:R.C APPARELS
+                </div>
+                <div class="card-price">
+                    Rs. 100
+                </div>
+                <button class="btn-cart btn">
+                    ADD TO CART
+                </button>
+        
+                </div>
+            </div>
+        
+
+
+            <div class="ecomm vertical-card ">
+
+                <div class="card-heading">
+                    Mobile Cover
+                </div>
+                <div class="card-text">
+                    Sold By:R.C APPARELS
+                </div>
+                <div class="card-price">
+                    Rs. 100
+                </div>
+                <button class="btn-cart btn">
+                    ADD TO CART
+                </button>
+        
+            </div>
+
+
+        </div>
+
+        <div class="code-snippet">
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-image-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522vertical-card-image%2522%2520src%253D%2522images%255Clars-kaizer-376AJQ5TBrA-unsplash%2520%281%29.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522vertical-badge%2522%253EFresh%2520Arrival%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close-btn%2522%253E%253Ci%2520class%253D%2522fi-xwluxl-times-wide%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253EMobile%2520Cover%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E%2520Sold%2520By%253AR.C%2520APPARELS%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253EPrice%253A%2520%252499%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520trendy%2520mobile%2520cover%2520for%2520GOOGLE%2520Pixel-5.Comes%2520with%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520complemenatry%2520screen%2520guard.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-buy%2520btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2520btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-layer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-image-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522vertical-card-image%2522%2520src%253D%2522images%255Clars-kaizer-376AJQ5TBrA-unsplash%2520%281%29.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253EMobile%2520Cover%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E%2520Sold%2520By%253AR.C%2520APPARELS%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253EPrice%253A%2520%252499%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520trendy%2520mobile%2520cover%2520for%2520GOOGLE%2520Pixel-5.Comes%2520with%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520complemenatry%2520screen%2520guard.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-buy%2520btn%2522%2520d"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+        </div>
+    </section>
+    <hr>
+
+<!-- --------------------------------- -->
+
+<hr>
+<section class="form-component component" id="forms">
+
+    <div class="component-info">
+        <div class="component-heading">Inputs</div>
+
+        <p class="info-text">Inputs are an integral part of websites.They collect the
+            data which the user inputs and store them in the servers</p>
+
+        <div class="component-sub-heading">Input Fields</div>
+
+        <p>There are various types of input types available.A form is designed below conataining all the major input
+            types.Copy and paste the HTML code in your editor.
+            <b> (e.g. class="label-text")</b>
 
 
 
+    </div>
+
+    <div class="form-container component-display-container">
+
+
+        <div class="input-batch">
+            <label for="" class="label-text"> Enter Your Name</label>
+            <div class="name-field">
+                <input type="text" placeholder="First Name" class="input-field">
+                <input type="text" placeholder="Last Name" class="input-field">
+            </div>
+        </div>
+
+        <div class="input-batch">
+            <label for="" class="label-text">Disabled Field</label>
+            <input type="text" placeholder="Disabled" class="input-field" disabled>
+        </div>
+
+        <div class="input-batch">
+            <label for="" class="label-text">Date Of Brith</label>
+            <input type="date" class="input-field">
+        </div>
+
+        <div class="input-batch">
+            <label for="" class="label-text">Gender</label>
+            <select name="Gender" class="input-field">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="trans">Transgender</option>
+                <option value="nothing">Rather Not Say</option>
+            </select>
+
+        </div>
+
+        <div class="input-batch">
+            <label for="" class="label-text">Enter Your Email</label>
+            <input type="email" placeholder="E-Mail" class="input-field">
+
+        </div>
+
+        <div class="input-batch">
+            <label for="" class="label-text validation">Enter Your password</label>
+            <input type="password" placeholder="Password" class="input-field validation-input">
+            <label for="" class="validation">Incorrect Password! Try Again</label>
+        </div>
+
+
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253E%2520Enter%2520Your%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522First%2520Name%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Last%2520Name%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EDisabled%2520Field%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2522%2520class%253D%2522input-field%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EDate%2520Of%2520Brith%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522date%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EGender%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cselect%2520name%253D%2522Gender%2522%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522female%2522%253EFemale%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522male%2522%253EMale%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522trans%2522%253ETransgender%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522nothing%2522%253ERather%2520Not%2520Say%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EEnter%2520Your%2520Email%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522E-Mail%2522%2520class%253D%2522input-field%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2520validation%2522%253EEnter%2520Your%2520password%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520class%253D%2522input-field%2520validation-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522validation%2522%253EIncorrect%2520Password%21%2520Try%2520Again%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Text Area</div>
+
+        <p>Text Area can be used to enter long paragraphs of data. </p>
+    </div>
+
+    <div class="form-container component-display-container">
+
+        <label for="" class="label-text">Write in the Text Area</label>
+
+        <textarea name="" id="" placeholder="start writting...." class="text-field" rows="5"></textarea>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522label-text%2522%253EWrite%2520in%2520the%2520Text%2520Area%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522start%2520writting....%2522%2520class%253D%2522text-field%2522%2520rows%253D%25225%2522%253E%253C%252Ftextarea%253E"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Other Inputs</div>
+
+        <p>It conatins <b>Checkbox,Color Selector,Radio,Range</b>.</p>
+        <ul>
+
+            <li> <b>Checkbox</b> can be used by the user to select one or more items from a set</li>
+            <li> <b>Color Selector</b> can be used to select a wide range of colors </li>
+            <li> <b>Radio Button</b> are used when the user must make only one selection out of a group of items.
+            </li>
+            <li> <b>Range Selector</b> can be used as a range slider for values with a wide range. This one is set
+                to be a number between 0 and 100</li>
+
+
+        </ul>
+    </div>
+
+    <div class="form-container2 component-display-container">
+
+        <div class="input-batch">
+            <label class="label-text">Checkbox</label>
+            <input type="checkbox" class="input-other">
+        </div>
+
+        <div class="input-batch">
+            <label class="label-text">Color Selector</label>
+            <input type="color" class="input-other">
+        </div>
+
+        <div class="input-batch">
+            <label class="label-text">Radio</label>
+            <input type="radio" class="input-other">
+        </div>
+
+        <div class="input-batch">
+            <label class="label-text">Range</label>
+            <input type="range" class="input-other">
+        </div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253ECheckbox%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253EColor%2520Selector%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522color%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253ERadio%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-batch%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label-text%2522%253ERange%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522input-other%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    </div>
+
+
+</section>
+<hr>
+
+<!-- --------------------------------- -->
+
+<hr>
+<section class="grid-component component" id="grids">
+
+    <div class="component-info">
+        <div class="component-heading">Grids</div>
+
+        <p class="info-text">Grids are used in dividing the web page into various sections.</p>
+
+        <div class="component-sub-heading">Grid-Two Items</div>
+
+        <p>The two items are divided in a 1:1 ratio.Use the <b>"grid-two-items"</b> class.
+            <b> (e.g. class="grid-two-items")</b>
+
+
+
+    </div>
+
+    <div class="grid-container component-display-container">
+
+
+        <div class="grid-two-items">
+
+            <div class="grid item1">
+
+                <div class="grid-heading">Grid Item 1</div>
+
+            </div>
+
+            <div class="grid item2">
+                <div class="grid-heading">Grid Item 2</div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=592&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-two-items%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item1%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Grid-Three Items</div>
+
+        <p>The three items are divided in a 1:1:1 ratio.Use the <b>"grid-three-items"</b> class.
+            <b> (e.g. class="grid-three-items")</b>
+    </div>
+
+    <div class="grid-container component-display-container">
+
+        <div class="grid-three-items">
+
+            <div class="grid item1">
+
+                <div class="grid-heading">Grid Item 1</div>
+
+            </div>
+
+            <div class="grid item2">
+                <div class="grid-heading">Grid Item 2</div>
+            </div>
+
+            <div class="grid item3">
+                <div class="grid-heading">Grid Item 3</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=592&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-three-items%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item1%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25203%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Grid-Four Items</div>
+
+        <p>The four items are divided in a 1:1:1:1 ratio.Use the <b>"grid-four-items"</b> class.
+            <b> (e.g. class="grid-four-items")</b>
+    </div>
+
+    <div class="grid-container component-display-container">
+
+        <div class="grid-four-items">
+
+            <div class="grid item1">
+
+                <div class="grid-heading">Grid Item 1</div>
+
+            </div>
+
+            <div class="grid item2">
+                <div class="grid-heading">Grid Item 2</div>
+            </div>
+
+            <div class="grid item3">
+                <div class="grid-heading">Grid Item 3</div>
+            </div>
+
+            <div class="grid item4">
+                <div class="grid-heading">Grid Item 4</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=592&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-four-items%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item1%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25203%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25204%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Grid - 30:70</div>
+
+        <p>The two items are divided in a 30:70 ratio.Use the <b>"grid-thirty-seventy"</b> class.
+            <b> (e.g. class="grid-thirty-seventy")</b>
+
+            <div class="grid-container component-display-container">
+
+                <div class="grid-thirty-seventy">
+
+                    <div class="grid item1">
+
+                        <div class="grid-heading">Grid Item 1</div>
+
+                    </div>
+
+                    <div class="grid item2">
+                        <div class="grid-heading">Grid Item 2</div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="code-snippet">
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=592&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-thirty-seventy%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item1%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+            </div>
+
+            <div class="component-info">
+                <div class="component-sub-heading">Grid - 75:25</div>
+
+                <p>The two items are divided in a 75:25 ratio.Use the <b>"grid-seventyfive-twentyfive"</b> class.
+                    <b> (e.g. class="grid-seventyfive-twentyfive")</b>
+            </div>
+
+            <div class="grid-container component-display-container">
+
+                <div class="grid-seventyfive-twentyfive">
+
+                    <div class="grid item1">
+
+                        <div class="grid-heading">Grid Item 1</div>
+
+                    </div>
+
+                    <div class="grid item2">
+                        <div class="grid-heading">Grid Item 2</div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="code-snippet">
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=592&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-seventyfive-twentyfive%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item1%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25201%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-heading%2522%253EGrid%2520Item%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+            </div>
+
+</section>
+<hr>
+<!-- --------------------------------- -->
+
+<hr>
+  <section class="image-component component" id="images">
+
+    <div class="component-info">
+      <div class="component-heading">Image</div>
+
+      <p class="info-text">Responsive images are images which are adaptable to any screen size.</p>
+
+      <div class="component-subHeading">Full Fill Image </div>
+
+      <p>Full Fill images are the adaptable images which cover the entire area of the parent conatiner
+        (e.g. class="image-container").</b>
+
+
+
+    </div>
+
+    <div class="image-container component-display-container">
+
+      <img src="https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_1280.jpg" alt="responsive image"
+        class="img-resp">
+
+    </div>
+
+    <div class="code-snippet">
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2013%252F11%252F28%252F10%252F36%252Froad-220058_1280.jpg%2522%2520alt%253D%2522responsive%2520image%2522%2520class%253D%2522img-resp%2522%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
+
+    <div class="component-info">
+      <div class="component-sub-heading">Images in Geometric Shapes</div>
+
+      <p>Images can be inserted in many shapes.Some of which are displayed below </p>
+    </div>
+
+    <div class="image-container component-display-container">
+
+      <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_1280.jpg" alt="Square image"
+        class="square img">
+      <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg" alt="Square image"
+        class="circular img">
+      <img src="https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_1280.jpg" alt="Square image"
+        class="rectangle img">
+
+
+    </div>
+
+    <div class="code-snippet">
+
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2017%252F05%252F09%252F03%252F46%252Falberta-2297204_1280.jpg%2522%2520alt%253D%2522Square%2520image%2522%2520class%253D%2522square%2520img%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2021%252F08%252F25%252F20%252F42%252Ffield-6574455_1280.jpg%2522%2520alt%253D%2522Square%2520image%2522%2520class%253D%2522circular%2520img%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2013%252F10%252F09%252F02%252F27%252Flake-192990_1280.jpg%2522%2520alt%253D%2522Square%2520image%2522%2520class%253D%2522rectangle%2520img%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+    </div>
+
+
+
+  </section>
+  <hr>
+
+<!-- --------------------------------- -->
+
+<hr>
+<section class="list-component component" id="lists">
+
+    <div class="component-info">
+        <div class="component-heading">Lists</div>
+
+        <p class="info-text">Lists are components used to display any content in an organized manner</p>
+
+        <div class="component-sub-heading">Unordered Lists </div>
+
+        <p>Unordered lists have bullet styles or no styles at all.Copy the required style class and paste it in your
+            code.
+
+
+
+    </div>
+
+    <div class="list-container component-display-container">
+
+        <ul class="normal-bullets">
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+
+        <ul class="square-bullets">
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+
+        <ul class="circular-bullets">
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+
+
+        <ul class="no-bullets">
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522normal-bullets%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522square-bullets%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522circular-bullets%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522no-bullets%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%250A%2520%2520%2520%2520"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Ordered List</div>
+
+        <p>Ordered List follow numeric or alphabetical styles.Copy the required style class and paste it in your
+            code.</p>
+    </div>
+
+    <div class="list-container component-display-container">
+
+        <ol class="normal-numbering">
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ol>
+
+        <ol class="roman-small-numbering">
+            <li>Lower Roaman Numbering</li>
+            <li>Lower Roaman Numbering</li>
+            <li>Lower Roaman Numbering</li>
+        </ol>
+
+        <ol class="roman-big-numbering">
+            <li>Upper Roaman Numbering</li>
+            <li>Upper Roaman Numbering</li>
+            <li>Upper Roaman Numbering</li>
+        </ol>
+
+
+        <ol class="alphabet-small-numbering">
+            <li>alphabet ordered</li>
+            <li>alphabet ordered</li>
+            <li>alphabet ordered</li>
+        </ol>
+
+        <ol class="alphabet-big-numbering">
+            <li>ALPHABET ORDERED</li>
+            <li>ALPHABET ORDERED</li>
+            <li>ALPHABET ORDERED</li>
+        </ol>
+
+        <ol class="reversed-numbering">
+            <li>Reverse Ordered</li>
+            <li>Reverse Ordered</li>
+            <li>Reverse Ordered</li>
+        </ol>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522normal-numbering%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522roman-small-numbering%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ELower%2520Roaman%2520Numbering%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ELower%2520Roaman%2520Numbering%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ELower%2520Roaman%2520Numbering%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522roman-big-numbering%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EUpper%2520Roaman%2520Numbering%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EUpper%2520Roaman%2520Numbering%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EUpper%2520Roaman%2520Numbering%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522alphabet-small-numbering%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ealphabet%2520ordered%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ealphabet%2520ordered%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Ealphabet%2520ordered%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522alphabet-big-numbering%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EALPHABET%2520ORDERED%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EALPHABET%2520ORDERED%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EALPHABET%2520ORDERED%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522reversed-numbering%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EReverse%2520Ordered%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EReverse%2520Ordered%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EReverse%2520Ordered%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%250A%250A%2520%2520%2520%2520"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Stacked Lists</div>
+
+        <p>Stacked List can be used in notification bars and are used to display wide range of data.</p>
+    </div>
+
+    <div class="list-container2 component-display-container">
+
+        <div class="list-component">
+
+            <div class="job-info">
+                <div class="list-highlight">Python Developer</div>
+
+                <div class="job-descpr">
+                    <div class="job-icon"><i class="fi-xnsuxl-computer-desktop-solid"></i></div>
+                    <div class="list-caption">Engineering</div>
+                </div>
+            </div>
+
+            <div class="job-apply">
+                <div class="job-time">Full Time</div>
+                <div class="list-caption job-descpr"> <i class="fi-xnsuxl-calendar-solid"></i> Closing on Mar 1st
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="list-component">
+            <div class="job-info">
+                <div class="list-highlight">WEB Developer</div>
+
+                <div class="job-descpr">
+                    <div class="job-icon"><i class="fi-xnsuxl-computer-desktop-solid"></i></div>
+                    <div class="list-caption">Engineering</div>
+                </div>
+            </div>
+
+            <div class="job-apply">
+                <div class="job-time">Full Time</div>
+                <div class="list-caption job-descpr"> <i class="fi-xnsuxl-calendar-solid"></i> Closing on Feb 25th
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="list-component">
+            <div class="job-info">
+                <div class="list-highlight">Buisness Analyst</div>
+
+                <div class="job-descpr">
+                    <div class="job-icon"><i class="fi-xnsuxl-bank-solid"></i></i></div>
+                    <div class="list-caption">Finance</div>
+                </div>
+            </div>
+
+            <div class="job-apply">
+                <div class="job-time">Full Time</div>
+                <div class="list-caption job-descpr"> <i class="fi-xnsuxl-calendar-solid"></i> Closing on Feb 27th
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-component%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-highlight%2522%253EPython%2520Developer%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-descpr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-icon%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-computer-desktop-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-caption%2522%253EEngineering%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-apply%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-time%2522%253EFull%2520Time%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-caption%2520job-descpr%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-calendar-solid%2522%253E%253C%252Fi%253E%2520Closing%2520on%2520Mar%25201st%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-highlight%2522%253EWEB%2520Developer%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-descpr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-icon%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-computer-desktop-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-caption%2522%253EEngineering%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-apply%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-time%2522%253EFull%2520Time%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-caption%2520job-descpr%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-calendar-solid%2522%253E%253C%252Fi%253E%2520Closing%2520on%2520Feb%252025th%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-highlight%2522%253EBuisness%2520Analyst%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-descpr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-icon%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-bank-solid%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-caption%2522%253EFinance%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-apply%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522job-time%2522%253EFull%2520Time%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-caption%2520job-descpr%2522%253E%2520%253Ci%2520class%253D%2522fi-xnsuxl-calendar-s"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+</section>
+<hr>
+
+
+<!-- --------------------------------- -->
+
+<hr>
+<section class="modal-component component">
+
+    <div class="component-info">
+        <div class="component-heading">Modal</div>
+
+        <p class="info-text">Modals are dialog boxes that are used to grab user attention.Usually when a modal is
+            displayed the user cannot acess other content</p>
+        <div class="component-sub-heading">Modal Box</div>
+
+        <p>An example of modal block is shown below.Copy and paste the HTML code displayed below in your code
+            editor.</p>
+
+    </div>
+
+    <div class="modal-container component-display-container" id="modal">
+
+        <div class="modal-box">
+
+            <div class="modal-title component-sub-heading">Modal Title</div>
+
+            <div class="modal-content info-text">The modal content goes here</div>
+
+            <div class="modal-footer"><button class="btn btn-close">Close</button> <button class="btn btn-save">Save
+                    Changes</button></div>
+
+        </div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-box%2522%253E%250A%250A%253Cdiv%2520class%253D%2522modal-title%2520component-sub-heading%2522%253EModal%2520Title%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522modal-content%2520info-text%2522%253EThe%2520modal%2520content%2520goes%2520here%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522modal-footer%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-close%2522%253EClose%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn-save%2522%253ESave%2520Changes%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+
+
+</section>
+<hr>
+
+
+<!-- --------------------------------- -->
+
+<section class="rating-component component" id="rating">
+
+  <div class="component-info">
+      <div class="component-heading">Rating</div>
+
+      <p class="info-text">Rating bars can be used in websites to display the user ratings on a particular product
+          or service.</p>
+
+      <div class="component-sub-heading">Static Rating Bar </div>
+
+      <p>The Rating Bar shown below cal be used by placing <b>glowing-star,normal-star</b> classes.
+          <b>(e.g. class="glowing-star")</b> for the star to glow and <b>(e.g. class="normal-star")</b> otherwise.
+
+
+
+  </div>
+
+  <div class="rating-container component-display-container">
+
+      <div class="rating-box">
+
+          <div class="glowing-star"><i class="fi-xnsuxl-star-solid"></i></div>
+          <div class="glowing-star"><i class="fi-xnsuxl-star-solid"></i></div>
+          <div class="normal-star"><i class="fi-xnsuxl-star-solid"></i></div>
+          <div class="normal-star"><i class="fi-xnsuxl-star-solid"></i></div>
+          <div class="normal-star"><i class="fi-xnsuxl-star-solid"></i></div>
+
+
+      </div>
+
+  </div>
+
+  <div class="code-snippet">
+
+      <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522glowing-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522glowing-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522normal-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522normal-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522normal-star%2522%253E%253Ci%2520class%253D%2522fi-xnsuxl-star-solid%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A"
+          sandbox="allow-scripts allow-same-origin">
+      </iframe>
+  </div>
+
+
+
+</section>
+<hr>
+
+
+
+<!-- --------------------------------- -->
+
+<hr>
+<section class="nav-component component" id="nav">
+
+    <div class="component-info">
+        <div class="component-heading">Navbar</div>
+
+        <p class="info-text">Navigation Bars are used as navigators which act as a guide throught the website.
+            The below navigation bar is designed only for desktops</p>
+
+        <div class="component-sub-heading">Simple Navbar</div>
+
+        <p>Copy and paste the below code in your editor to get the navbar.</p>
+
+
+
+
+    </div>
+
+    <div class="alert-container component-display-container">
+
+        <nav class="nav-logo navigation-menu">
+
+            <div class="left-side-nav">
+
+                <i class="fi-swsuxl-tshirt-wide" id="logo"></i>
+                <a class="nav-heading heading" href="http://">ShopMe!</a>
+
+            </div>
+
+            <input type="search" placeholder="Search Clothes" class="seacrch-bar">
+            <div class="right-side-nav">
+
+
+                <a class="nav-items" href="">
+                    <i class="fi-xwsuhl-shopping-cart-solid"></i>
+                    <span class="number-indicator">CART</span>
+                </a>
+
+                <a class="nav-items" href="">
+                    <i class="fi-xnsuxl-user-solid"></i>
+                    <span class="number-indicator">LOG IN</span>
+                </a>
+
+            </div>
+
+        </nav>
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=465&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522nav-logo%2520navigation-menu%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522left-side-nav%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fi-swsuxl-tshirt-wide%2522%2520id%253D%2522logo%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-heading%2520heading%2522%2520href%253D%2522http%253A%252F%252F%2522%253EShopMe%21%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522search%2522%2520placeholder%253D%2522Search%2520Clothes%2522%2520class%253D%2522seacrch-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-side-nav%2522%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-items%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fi-xwsuhl-shopping-cart-solid%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522number-indicator%2522%253ECART%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-items%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fi-xnsuxl-user-solid%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522number-indicator%2522%253ELOG%2520IN%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+
+
+
+
+</section>
+<hr>
+
+<!-- --------------------------------- -->
+
+
+<hr>
+<section class="typo-component component" id="typo">
+
+    <div class="component-info">
+        <div class="component-heading">Typography</div>
+
+        <p class="info-text">Texts are very useful in conveying information to the user.Given below are certain text
+            utilities.</p>
+
+        <div class="component-sub-heading">Heading Texts</div>
+
+        <p>Heading texts can be used as headings and sub-headings in the website.You can directly use the<b> h1, h2,
+                h3, h4 ,h5 </b>classes</p>
+
+
+    </div>
+
+    <div class="typo-container component-display-container">
+
+
+        <div class="h1">This is a H1 Heading </div>
+        <div class="h2">This is a H2 Heading </div>
+        <div class="h3">This is a H3 Heading </div>
+        <div class="h4">This is a H4 Heading </div>
+        <div class="h5">This is a H5 Heading </div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522h1%2522%253EThis%2520is%2520a%2520H1%2520Heading%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h2%2522%253EThis%2520is%2520a%2520H2%2520Heading%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h3%2522%253EThis%2520is%2520a%2520H3%2520Heading%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h4%2522%253EThis%2520is%2520a%2520H4%2520Heading%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h5%2522%253EThis%2520is%2520a%2520H5%2520Heading%2520%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Styled Texts</div>
+
+        <p>User can change the styles of the text using the <b>small, gray, primaryclr, red, default, bold, strike
+            </b>classes.</p>
+    </div>
+
+    <div class="typo-container component-display-container">
+
+        <div class="small text">This is a small text.</div>
+        <div class="gray text">This is a gray text.</div>
+        <div class="primaryclr text">This is a primary color text.</div>
+        <div class="red text">This is a red color text.</div>
+        <div class="default text">This is a default color text.</div>
+        <div class="bold text">This is a bold text.</div>
+        <div class="strike text">This is not a accurate text.</div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small%2520text%2522%253EThis%2520is%2520a%2520small%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522gray%2520text%2522%253EThis%2520is%2520a%2520gray%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522primaryclr%2520text%2522%253EThis%2520is%2520a%2520primary%2520color%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522red%2520text%2522%253EThis%2520is%2520a%2520red%2520color%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522default%2520text%2522%253EThis%2520is%2520a%2520default%2520color%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bold%2520text%2522%253EThis%2520is%2520a%2520bold%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522strike%2520text%2522%253EThis%2520is%2520not%2520a%2520accurate%2520text.%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    </div>
+
+    <div class="component-info">
+        <div class="component-sub-heading">Aligned Texts</div>
+
+        <p>To align the texts add the <b>"left"</b>,<b>"right"</b>and the <b>"center"</b> class names.</p>
+    </div>
+
+    <div class="typo-container2 component-display-container">
+
+        <div class="left text">This is a left aligned text.</div>
+        <div class="center text">This is a centraly placed text.</div>
+        <div class="right text">This is a right aligned text.</div>
+
+    </div>
+
+    <div class="code-snippet">
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522left%2520text%2522%253EThis%2520is%2520a%2520left%2520aligned%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2520text%2522%253EThis%2520is%2520a%2520centraly%2520placed%2520text.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right%2520text%2522%253EThis%2520is%2520a%2520right%2520aligned%2520text.%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+</section>
+<hr>
+
+
+<!-- --------------------------------- -->
+
+<hr>
+    <section class="toast-component component" id="toasts">
+
+        <div class="component-info">
+            <div class="component-heading">Toast</div>
+
+            <p class="info-text">Alerts are used to show alert messages to the user.It acts as an attention grabber</p>
+
+            <div class="component-sub-heading">Types Of Toasts</div>
+
+            <p>Alerts are available in 5 different styles.You need to include
+                these classes in the div tag.Choose the appropriate style according to your requirement
+                <b> alert primary, alert secondary, alert success, alert fail, alert warning (e.g. class="alert
+                    warning")</b></p>
+
+
+
+        </div>
+
+        <div class="toast-container component-display-container">
+
+            <div class="success toast">
+                Added To Cart!
+                <i class="fi-xwluxl-times-wide"></i>
+            </div>
+
+            <div class="failure toast">
+                Server Timed Out!
+                <i class="fi-xwluxl-times-wide"></i>
+            </div>
+
+            <div class="processing toast">
+                Fetching data from server..
+                <i class="fi-xwluxl-times-wide"></i>
+            </div>
+
+        </div>
+
+        <div class="code-snippet">
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success%2520toast%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Added%2520To%2520Cart%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fi-xwluxl-times-wide%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522failure%2520toast%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Network%2520Timed%2520Out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fi-xwluxl-times-wide%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522processing%2520toast%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Fetching%2520data%2520from%2520server..%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fi-xwluxl-times-wide%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+
+
+
+
+    </section>
+    <hr>
+
+<!-- --------------------------------- -->
 </main>
-
-
-
-
-
-
 
 
 
