@@ -1,0 +1,16 @@
+@import url("./Components/Text-Utilities/text.css");
+@import url("./styles.css");
+
+@import url("./Components/Alert/alert.css");
+@import url("./Components/Avatar/avatar.css");
+@import url("./Components/badges/badges.css");
+@import url("./Components/buttons/button.css");
+@import url("./Components/cards/card.css");
+@import url("./Components/forms/forms.css");
+@import url("./Components/grids/grids.css");
+@import url("./Components/image/image.css");
+@import url("./Components/lists/list.css");
+@import url("./Components/modal&rating/modal-rating.css");
+@import url("./Components/Navigation/nav.css");
+
+@import url("./Components/Toast/toast.css");
