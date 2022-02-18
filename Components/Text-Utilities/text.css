@@ -6,7 +6,7 @@
 }
 
 
-.typo-container {
+.typo-text-container {
     display: flex;
     flex-flow: column wrap;
     gap: 0.7rem;
@@ -92,7 +92,7 @@
     margin: 1rem 0 1rem 0;
 }
 
-.typo-container2 {
+.typo-text-container2 {
     display: block;
 
 }
