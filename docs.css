@@ -1,0 +1,47 @@
+@import url("./styles.css");
+
+
+.library-container
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;   
+}
+.dropdown-bar
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  
+    border-radius: 0.5rem;
+}
+
+#component-dropdown
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 3rem;
+    margin: 0.5rem ;
+    background-color: var(--primary-color);
+    /* border-bottom: 2px solid var(--primary-color); */
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  
+    
+}
+
+.dropdown-options
+{
+   font-size: 1.1rem;
+ background-color: #E6E6E6;
+ margin: 5rem;
+ padding: 1.5rem;
+
+    
+}
