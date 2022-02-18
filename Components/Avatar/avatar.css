@@ -1,5 +1,7 @@
-@import url("landingPage.css");
 
+
+@import url("landingPage.css");
+@import url("./../../comp-lib.css");
 
 .avatar-component
 {

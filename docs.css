@@ -1,11 +1,10 @@
 
-@import url("./styles.css");
-
 @import url("./comp-lib.css");
 
 .navigation-menu
 {
     background-color: #E6E6E6;
+
 }
 
 .library-container

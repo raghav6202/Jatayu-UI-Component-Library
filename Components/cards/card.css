@@ -1,5 +1,5 @@
 @import url("styles.css");
-
+@import url("./../../comp-lib.css");
 :root{
     --shadow-color: #d4d4d8;
     --badge-color: #f43f5e;
@@ -84,11 +84,13 @@ position: relative;
 .horizontal-btn-buy:hover
 {
     background-color: var(--buybtn-hover-color) ;
+    border-color: var(--buybtn-hover-color);
 }
 
 .horizontal-btn-cart:hover
 {
     background-color: var(--cartbtn-hover-color) ;
+    border-color:var(--cartbtn-hover-color);
 }
 .shadow
 {
@@ -200,6 +202,7 @@ position: relative;
   .btn-cart:hover
   {
     background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
   }
   .ecomm .btn{
     margin-left: 1rem;
