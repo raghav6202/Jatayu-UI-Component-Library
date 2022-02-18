@@ -41,14 +41,17 @@
 
 .btn-close {
     background-color: var(--close-btn-clr);
+   
 }
 
 .btn-close:hover {
     background-color: var(--close-hover-clr);
+    border-color: var(--close-hover-clr);
 }
 
 .btn-save:hover {
     background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
 }
 
 
