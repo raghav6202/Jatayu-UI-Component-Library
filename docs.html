@@ -33,12 +33,12 @@
 
 <div class="dropdown-bar">
     
-<select name="comonents" onChange="window.location.href=this.value" id="component-dropdown">
-heu
+<select name="comonents" onChange="window.location.href=this.value"  id="component-dropdown">
+
     
     <option class="dropdown-options" value="docs.html" selected="selected">COMPONENTS</option>
-    <option class="dropdown-options"  value="https://u-and-i-store.netlify.app/shop">Alert</option>
-    <option class="dropdown-options" value=" ">Avatar</option>
+    <option class="dropdown-options"  value="#alert">Alert</option>
+    <option class="dropdown-options" value="#avatar">Avatar</option>
     <option class="dropdown-options" value="alert">Badges</option>
     <option class="dropdown-options" value="alert">Buttons</option>
     <option class="dropdown-options" value="alert">Cards</option>
@@ -61,12 +61,155 @@ heu
 
 <main class="comp-lib-componets">
 
-
-
-
-
-
+<!-- --------------------------------- -->
+    <hr>
+    <section class="alert-component component" id="alert">
     
+    <div class="component-info">
+        <div class="component-heading" >Alert</div>
+    
+        <p class="info-text">Alerts are used to show alert messages to the user.It acts as an attention grabber</p>
+    
+    <div class="component-subHeading">Normal Alert Bar </div>
+    
+    <p>Alerts are available in 5 different styles.You need to include
+         these classes in the div tag.Choose the appropriate style according to your requirement
+          <b> alert primary, alert secondary, alert success, alert fail, alert warning (e.g. class="alert warning")</b>
+    
+    
+    
+    </div>
+    
+    <div class="alert-container component-display-container">
+    
+    <div class="alert primary">This is a primary alert</div>
+    <div class="alert secondary">This is a secondary alert</div>
+    <div class="alert success"><i class="fi-cwsuxl-check"></i>This is a success alert</div>
+    <div class="alert fail"><i class="fi-cnsuxl-exclamation-mark-rounded"></i>This is a fail alert</div>
+    <div class="alert warning"><i class="fi-ensuxl-warning-solid"></i>This is a warning alert</div>
+    
+    </div>
+    
+    <div class="code-snippet">
+    
+      <iframe
+      src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
+    
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    </div>
+    
+    <div class="component-info">
+    <div class="component-subHeading">Alert bar with close button</div>
+    
+    <p >These type of alert bars have a close button to close the alert bar </p>
+    </div>
+    
+    <div class="alert-container component-display-container">
+    
+      <div class="alert primary close">
+        This is a primary alert
+        <i class="fi-xwluxl-times-wide close-icon"></i>
+      </div>
+
+      <div class="alert secondary close">This is a secondary alert
+         <i class="fi-xwluxl-times-wide close-icon"></i></div>
+      
+      <div class="alert success close"> <div class="alert-text alert">
+        <i class="fi-cwsuxl-check"></i>This is a success alert </div>
+        <div class="close-icon"><i class="fi-xwluxl-times-wide"></i></div> </div>
+
+      <div class="alert fail close"><div class="alert-text alert">
+        <i class="fi-cnsuxl-exclamation-mark-rounded"></i>This is a fail alert</div>
+        <div class="close-icon"><i class="fi-xwluxl-times-wide"></i></div></div>
+
+      <div class="alert warning close"><div class="alert-text alert">
+        <i class="fi-ensuxl-warning-solid"></i>This is a warning alert</div>
+        <div class="close-icon"><i class="fi-xwluxl-times-wide"></i></div></div>
+    </div>
+    
+    <div class="code-snippet">
+    
+      <iframe
+      src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
+   
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    
+    </div>
+    
+    
+    
+    </section>
+    <hr>
+<!-- --------------------------------- -->
+
+<hr>
+<section class="avatar-component component" id="avatar">
+
+<div class="component-info">
+    <div class="component-heading" >Avatar</div>
+
+    <p class="info-text">Avatar component is used to show user's profile 
+        picture on profile information page, on navigation bar, in blogs grid items.</p>
+
+<div class="component-subHeading">Image Avatar</div>
+
+<p class="info-text">Avatar is available in 4 different sizes. You can use image in Avatar. You need to include
+     these classes in the image tag.Choose the appropriate classes according to the required size <b> img-avatar xl, img-avatar l, img-avatar m, img-avatar s (e.g. class="img-avatar m")</b>
+    Don't forget to add Responsive Image class names for img element.</p>
+
+
+</div>
+
+<div class="component-display-container" id="image-avatar-component">
+
+<img class="img-avatar xl" src="https://media.istockphoto.com/photos/lion-predator-dangerous-mane-picture-id1287214055?s=612x612" alt="avatar image">
+<img class="img-avatar l" src="https://media.istockphoto.com/photos/lion-predator-dangerous-mane-picture-id1287214055?s=612x612" alt="avatar image">
+<img class="img-avatar m" src="https://media.istockphoto.com/photos/lion-predator-dangerous-mane-picture-id1287214055?s=612x612" alt="avatar image">
+<img class="img-avatar s" src="https://media.istockphoto.com/photos/lion-predator-dangerous-mane-picture-id1287214055?s=612x612" alt="avatar image">
+
+</div>
+
+<div class="code-snippet">
+
+  <iframe
+  src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
+
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+
+<div class="component-info">
+<div class="component-subHeading">Text Avatar</div>
+
+<p class="info-text">Below is an text avatar which displays text instead of image.Replace <b>"img"</b> with <b>"text"</b> in the class</p>
+</div>
+
+<div class="component-display-container" id="text-avatar-component">
+
+<div class="text-avatar xl">IN</div>
+<div class="text-avatar l">IN</div>
+<div class="text-avatar m">IN</div>
+<div class="text-avatar s">IN</div>
+
+</div>
+
+<div class="code-snippet">
+
+  <iframe
+  src="https://carbon.now.sh/embed/ihTw5qY8cguOdSHA14cG"
+
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+</div>
+
+
+
+</section>
+<hr>
+
 </main>
 
 
