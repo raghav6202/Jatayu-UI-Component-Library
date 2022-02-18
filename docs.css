@@ -57,4 +57,26 @@
 .comp-lib-componets
 {
     width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.typo-text-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.7rem;
+
+}
+
+.typo-text-container2 {
+    display: block;
+
+}
+
+.form-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5rem;
+    margin: 0.5rem 0 0.5rem 0;
 }

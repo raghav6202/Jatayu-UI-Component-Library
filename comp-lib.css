@@ -1,6 +1,6 @@
-@import url("./Components/Text-Utilities/text.css");
+@import url("./docs.css");
 @import url("./styles.css");
-
+@import url("./Components/Text-Utilities/text.css");
 @import url("./Components/Alert/alert.css");
 @import url("./Components/Avatar/avatar.css");
 @import url("./Components/badges/badges.css");
