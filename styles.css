@@ -11,6 +11,7 @@ body
 {
 margin: 0;
 padding: 0;
+
     
 
 }
@@ -37,6 +38,7 @@ padding: 0;
     justify-content: space-evenly;
     align-items: center;
     /* border-bottom: 2px solid var(--primary-color); */
+    background-color: #E6E6E6;
 }
 
 .left-side-nav
@@ -80,6 +82,11 @@ padding: 0;
     color: var(--secondary-color);
 }
 
+.main-container
+{
+    background: rgb(99,220,205);
+background: linear-gradient(185deg, rgba(99,220,205,1) 42%, rgba(38,99,80,1) 78%);
+}
 .info-container
 {
     display: flex;
@@ -88,7 +95,7 @@ padding: 0;
     align-items: center;
    text-align: center;
     padding-top: 7rem;
-   
+    
 }
 
 .main-caption
@@ -99,7 +106,8 @@ padding: 0;
     /* line-height: 3.5rem; */
     align-self: center;
      width: 70%;
-color: var(--primary-color);
+/* color: var(--primary-color); */
+color: black;
 }
 
 .sub-caption
@@ -122,16 +130,26 @@ color: var(--primary-color);
 
 
 }
+
+.docs-btn
+{
+    background-color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+}
 .btn-next:hover
 {
-    background-color: white;
-    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border: 3px solid var(--secondary-color);
 }
 .btn-link
 {
     text-decoration: none;
     color: black;
     font-weight: 600;
+}
+.install-heading
+{
+    color: black;
 }
 .installation-container
 {
@@ -142,12 +160,13 @@ color: var(--primary-color);
 {
     margin-top: 1rem;
     padding: 2rem;
-    background-color:var(--primary-color);
+    /* background-color:var(--primary-color); */
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: #E6E6E6;
 }
 
 .footer-icons
