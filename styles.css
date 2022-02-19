@@ -238,6 +238,7 @@ align-items: center;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .code-snippet iframe
@@ -341,7 +342,7 @@ font-size: 1rem;
 
     .code-snippet iframe
     {
-width: 50%;
+width: 60%;
 overflow-y: scroll;
     }
 

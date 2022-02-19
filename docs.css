@@ -64,6 +64,10 @@
     flex-flow: column;
 }
 
+.code-snippet
+{
+    width: 100%;
+}
 .footer-container
 {
     background-color: var(--gray-bg-color);
@@ -86,4 +90,12 @@
     flex-flow: column wrap;
     gap: 1.5rem;
     margin: 0.5rem 0 0.5rem 0;
+}
+
+@media screen and (max-width: 768px)
+{
+    .code-snippet iframe
+    {
+width: 80%;
+    }
 }
