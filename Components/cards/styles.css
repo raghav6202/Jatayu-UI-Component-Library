@@ -176,6 +176,7 @@ body {
     border: 2px solid black;
     display: flex;
     flex-flow: wrap;
+    gap: 1.5rem;
     justify-content: space-evenly;
     align-items: center;
 
