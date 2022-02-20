@@ -72,3 +72,17 @@
     grid-template-columns: 75% 25%;
     gap: 0.5rem;
 }
+
+@media screen and (max-width:768px) {
+
+    .grid-heading {
+        font-size: 1.5rem;
+    }
+    .grid-four-items {
+
+        grid-template-columns: 20% 20% 20% 20%;
+
+    }
+
+    
+}
