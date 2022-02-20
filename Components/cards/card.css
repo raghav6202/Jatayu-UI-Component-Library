@@ -9,7 +9,11 @@
     --block-clr: #e4e4e7;
     
 }
-
+.card-container
+{
+  display: flex;
+  gap: 1rem 2rem;
+}
 .horizontal-cards
 {
    width: 90%;
