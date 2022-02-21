@@ -53,5 +53,3 @@ Jatayu U.I is stylish CSS Framework.You can build websites at lightning pace usi
 For support, email raghavchandravs@gamail.com.
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
